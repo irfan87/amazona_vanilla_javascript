@@ -12,3 +12,13 @@ An Amazon-clone website with simple NodeJS and vanilla JS, no React.
     * `yarn add` (or `npm install`) -D live-server
     * add start command as `live-server src --verbose`
     * run `yarn start` (or `npm start`) 
+
+2. Design Website
+    
+    * create style.css
+    * link style.css to index.html
+    * create div.grid-container
+    * create header, main (body) and footer
+    * style html, body
+    * style grid-container, header, main and footer
+    * make transitions for header's links 
