@@ -22,3 +22,16 @@ An Amazon-clone website with simple NodeJS and vanilla JS, no React.
     * style html, body
     * style grid-container, header, main and footer
     * make transitions for header's links 
+
+3. Create Static Home Screen
+
+    * create ui.products
+    * create li
+    * create div.product
+    * add
+        * .product-image
+        * .product-name
+        * .product-brand
+        * .product-price
+    * style ul.products and internal divs
+    * duplicate 2 times to show 3 products

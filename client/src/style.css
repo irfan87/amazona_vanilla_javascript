@@ -12,6 +12,17 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #000000;
+  transition: color .99s ease-out 100ms;
+}
+
+a:hover {
+ color: #f08040; 
+ cursor: pointer;
+}
+
 .grid__container {
   display: grid;
   grid-template-areas: 
@@ -24,6 +35,7 @@ body {
   height: 100%;
 }
 
+/* TODO: HEADER AND FOOTER */
 header {
   grid-area: header;
   background-color: #203040;
@@ -57,4 +69,49 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* TODO: PRODUCTS SECTION */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.products li {
+  flex: 0 1 30rem;
+  margin: 1rem;
+  margin-bottom: 0;
+  height: 42rem;
+  border-top: 0.2rem #e0e0e0 solid;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.product img {
+  max-height: 26rem;
+  max-width: 22rem;
+  margin-top: 2rem;
+}
+
+.product-name {
+  line-height: 2.2rem;
+}
+
+.product-brand {
+  font-size: 1.2rem;
+  color: #808080;
+}
+
+.product-price {
+  font-size: 2rem;
 }
