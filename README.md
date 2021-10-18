@@ -50,3 +50,15 @@ An Amazon-clone website with simple NodeJS and vanilla JS, no React.
     * create router() function
     * set main_container innerHTML to HomeScreen.render()
     * set load event of window to router() function
+
+5. Build URL Router
+    * create routes as route:screen object for home screen
+    * create utils.js
+    * export parseRequestURL()
+    * set url as hash address split by slash
+    * return resource, id and verb of url
+    * update router()
+    * set request as parseRequestURL()
+    * build parseUrl and compare with routes
+    * if routes exists, render it, else render Error404
+    * create screens/Error404.js and render error message
